@@ -1,0 +1,30 @@
+spring:
+
+  application:
+    name: anki-clone
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ankiclone
+    username: ankiclone
+    password: ankiclone
+
+  jpa:
+    open-in-view: false
+
+    hibernate:
+      ddl-auto: validate
+
+    properties:
+      hibernate:
+        format_sql: true
+
+  flyway:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - info
