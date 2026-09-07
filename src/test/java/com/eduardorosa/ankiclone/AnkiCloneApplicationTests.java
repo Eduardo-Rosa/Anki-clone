@@ -1,4 +1,4 @@
-package com.rosa_eduardo.anki_clone;
+package com.eduardorosa.ankiclone;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

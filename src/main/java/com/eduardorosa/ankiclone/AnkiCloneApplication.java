@@ -1,4 +1,4 @@
-package com.rosa_eduardo.anki_clone;
+package com.eduardorosa.ankiclone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
